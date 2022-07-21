@@ -1,0 +1,22 @@
+.homepage {
+  padding: 2rem 0;
+
+  .logo-holder{
+    margin-bottom: 3rem;
+    h1 {
+      margin-bottom: 0;
+      text-align: center;
+      font-weight: 900;
+
+      &:last-child {
+        margin-top: -1rem;
+      }
+    }
+  }
+
+
+  .data-holder {
+    width: 80%;
+    margin: 3rem auto 0;
+  }
+}

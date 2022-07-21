@@ -1,0 +1,12 @@
+.chocolate-item {
+  background: $white;
+  border-radius: 10px;
+  box-shadow: $dash-extra-shadow;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  .listing {
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+}
