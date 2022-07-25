@@ -25,7 +25,7 @@ const Homepage = () => {
     }
   }
 
-  const reconstructChartData = (nurition: {
+  const reconstructChartData = (nutrition: {
     fat: {
       total: number;
       saturated: number;
@@ -40,19 +40,19 @@ const Homepage = () => {
     let data = [
       {
         name: 'Fat',
-        value: nurition.fat.total
+        value: nutrition.fat.total
       },
       {
         name: 'Carbohydrates',
-        value: nurition.carbohydrates.total
+        value: nutrition.carbohydrates.total
       },
       {
         name: 'Protein',
-        value: nurition.protein
+        value: nutrition.protein
       },
       {
         name: 'Salt',
-        value: nurition.salt
+        value: nutrition.salt
       }
     ]
 
